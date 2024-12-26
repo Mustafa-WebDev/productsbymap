@@ -1,0 +1,26 @@
+.card img {
+    width: 200px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px;
+    padding: 5px;
+    width: 300px;
+    border: 2px solid rgb(231, 231, 231);
+    transition: transform 0.3s;
+}
+
+.limited-para {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Number of lines to display */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+.card:hover{
+    transform: translateY(-5px);
+}
